@@ -7,11 +7,11 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: up to date code
-      - uses: actions/checkout@v4
+        uses: actions/checkout@v4
 
       - name: Status index.html
         run: 
-          if [-f "index.html"]: then
+          if [ -f "index.html" ]; then
             echo "Aman!"
           else 
             echo "ga aman!"
