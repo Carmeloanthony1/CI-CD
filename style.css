@@ -1,0 +1,60 @@
+@font-face {
+    font-family: "Open-sans";
+    src : url("font/OpenSans-VariableFont_wdth\,wght.ttf")
+}
+
+
+* {
+    margin : 0;
+    padding : 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: darkgrey;
+}
+
+.container {
+    display : flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    padding-left : 5%;
+    padding-right: 15%;
+}
+.text {
+    flex : 1;
+    font-family: "Open-sans";
+    font-weight: bold;
+    max-width: 500px;
+}
+.title {
+    font-size: 3rem;
+    font-family: "Open-sans";
+    margin-bottom : 0px;
+}
+
+.name {
+    font-size: 3rem;
+    font-family: "Open-sans";
+    margin-bottom : 0px;
+}
+
+.description {
+    font-size: 1.2rem;
+}
+
+.img {
+    flex : 1;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.img img {
+    max-height: 60vh;
+    width : auto;
+}
